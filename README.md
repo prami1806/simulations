@@ -27,26 +27,26 @@ The first point drawn is at the origin (x0 = 0, y0 = 0) and then the new points 
 ƒ1
 
 xn + 1 = 0
-yn + 1 = 0.16 yn.
+yn + 1 = 0.16 yn.<br>
 This coordinate transformation is chosen 1% of the time and just maps any point to a point in the first line segment at the base of the stem. This part of the figure is the first to be completed during the course of iterations.
 
 
 ƒ2
 
 xn + 1 = 0.85 xn + 0.04 yn
-yn + 1 = −0.04 xn + 0.85 yn + 1.6.
+yn + 1 = −0.04 xn + 0.85 yn + 1.6.<br>
 This coordinate transformation is chosen 85% of the time and maps any point inside the leaflet represented by the red triangle to a point inside the opposite, smaller leaflet represented by the blue triangle in the figure.
 
 ƒ3
 
 xn + 1 = 0.2 xn − 0.26 yn
-yn + 1 = 0.23 xn + 0.22 yn + 1.6.
+yn + 1 = 0.23 xn + 0.22 yn + 1.6.<br>
 This coordinate transformation is chosen 7% of the time and maps any point inside the leaflet (or pinna) represented by the blue triangle to a point inside the alternating corresponding triangle across the stem (it flips it).
 
 ƒ4
 
 xn + 1 = −0.15 xn + 0.28 yn
-yn + 1 = 0.26 xn + 0.24 yn + 0.44.
+yn + 1 = 0.26 xn + 0.24 yn + 0.44.<br>
 This coordinate transformation is chosen 7% of the time and maps any point inside the leaflet (or pinna) represented by the blue triangle to a point inside the alternating corresponding triangle across the stem (without flipping it).
 
 ## Langton's ant
